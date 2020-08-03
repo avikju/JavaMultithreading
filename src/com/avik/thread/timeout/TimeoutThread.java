@@ -17,7 +17,7 @@ public class TimeoutThread {
             });
 
     t.start();
-    Thread.sleep(5);
+    Thread.sleep(500);
     t.interrupt();
   }
 }
